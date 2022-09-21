@@ -4,10 +4,6 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
-    server: {
-      port: process.env.PORT,
-      host: process.env.HOST
-    },
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
